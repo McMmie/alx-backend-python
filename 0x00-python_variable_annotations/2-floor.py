@@ -4,7 +4,7 @@ holds afunction that floors two floats
 """
 
 
-def floor(n: float) ->float:
+def floor(n: float) -> float:
     """
     floors a float
     """
