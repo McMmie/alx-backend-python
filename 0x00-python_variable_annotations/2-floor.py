@@ -2,6 +2,7 @@
 """
 holds afunction that floors two floats
 """
+from math import floor
 
 
 def floor(n: float) -> float:
@@ -9,4 +10,4 @@ def floor(n: float) -> float:
     floors a float
     """
 
-    return int(n)
+    return floor(n)
