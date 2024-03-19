@@ -6,7 +6,7 @@ import asyncio
 from random import uniform
 
 
-async def async_generator():
+async def async_generator() -> None:
     """
     generates a random number between 0 and 10
     """
